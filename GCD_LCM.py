@@ -1,3 +1,6 @@
+#Using Euclid's algorithm
+# https://en.wikipedia.org/wiki/Greatest_common_divisor
+
 def GCD(a,b):
     if a == b:
         return(a)
