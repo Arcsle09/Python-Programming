@@ -1,7 +1,7 @@
 # program to prove "==" is not same as "is" 
 # In python, the variable acts like an object.
 # It can be compared with pointer in C programming. 
-# the variable(or object) stores the memory address of value being stored inside of it.
+# the variable(or object) stores the memory address of value being stored inside of memory. 
 
 x = 42
 
