@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors Game 
 
-# Random Function being used. 
+# Sample Function being used. 
 
 from random import *
 
