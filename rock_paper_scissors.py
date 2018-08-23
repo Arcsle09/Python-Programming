@@ -1,5 +1,7 @@
 # Rock-Paper-Scissors Game 
 
+# Random Function being used. 
+
 from random import *
 
 userchoice = input("Do you choose rock,paper or scissors? ")
