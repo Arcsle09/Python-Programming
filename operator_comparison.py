@@ -14,8 +14,7 @@ y = 42.0
 #Out[327]: True
 
 #x is y
-#Out[328]: False
-
+#Out[328]: False 
 
 #the variable makes a decision based on the data type of the values. 
 
