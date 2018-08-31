@@ -15,3 +15,4 @@ def GCD(a,b):
     
 def LCM(a,b):
     return(a*b/GCD(a,b))
+
