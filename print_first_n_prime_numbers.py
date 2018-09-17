@@ -5,7 +5,6 @@ while len(primes) < n:
     for i in primes:
         if p % i == 0:
             break
-
     else:
         primes.append(p)
     p = p + 1 
