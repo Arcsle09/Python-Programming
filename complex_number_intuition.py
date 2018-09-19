@@ -1,8 +1,6 @@
 x = input('Enter the complex number:')
 
-#x input will be stored as string and we need to remove
-
-# spaces from the complex number before using complex function.
+#x input will be stored as string and we need to remove spaces from the complex number before using complex function.
 
 #if the user does not enter spaces,it will do nothing. 
 
