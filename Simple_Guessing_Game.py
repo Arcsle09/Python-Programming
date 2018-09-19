@@ -19,4 +19,5 @@ while True:
     message = message + str(guess) + " is too low.\n"
   else:
     break
+
 input("\n\nGreat, you got it in "+str(guesses)+" guesses!\n\n")
