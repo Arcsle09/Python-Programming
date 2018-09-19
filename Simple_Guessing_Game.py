@@ -20,4 +20,4 @@ while True:
   else:
     break
 
-input("\n\nGreat, you got it in "+str(guesses)+" guesses!\n\n")
+print("\n\nGreat, you got it in "+str(guesses)+" guesses!\n\n")
