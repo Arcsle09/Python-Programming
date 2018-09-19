@@ -4,6 +4,7 @@ x = input('Enter the complex number:')
 
 #if the user does not enter spaces,it will do nothing. 
 
+
 x = complex(x.replace(" ", ""))
 
 x = (x.real,x.imag)
