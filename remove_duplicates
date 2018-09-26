@@ -1,0 +1,7 @@
+def remove_dups(s):
+  result = ''
+  for i in s:
+    if not(i in result):
+      result = result + i
+  return result
+
