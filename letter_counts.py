@@ -4,8 +4,11 @@
 letter_counts = {}
 for letter in "ThiS is String with Upper and lower case Letters".lower():
   letter_counts[letter] = letter_counts.get(letter,0) + 1
+
 del letter_counts[" "]
+
 import collections 
 letter_counts = collections.OrderedDict(sorted(letter_counts.items()))
+
 for i in letter_counts.keys():
   print(i,letter_counts[i])
