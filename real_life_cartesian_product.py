@@ -2,7 +2,7 @@
 
 # Consider that you sell cars and a customer comes to you with the following request. 
 #“I need a number of cars. The models I want are Toyota Corolla, Honda CRV, and Chevy Cruze. 
-# And, for me to pay (putting food on the table)for your service I need my cars to be white, grey, and red and I want them to have 1.4, 1.6, and 1.8 engine capacities. 
+# And, for me to pay for your service I need my cars to be white, grey, and red and I want them to have 1.4, 1.6, and 1.8 engine capacities. 
 # I want a combination of cars that satisfy the specifications I’ve stated.”
 
 models = {"Toyota Corolla","Honda CRV","Chevy Cruze"}
