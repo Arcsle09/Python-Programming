@@ -11,4 +11,5 @@ colors = {"White","Grey","Red"}
 
 capacities = {"1.4L","1.6L","1.8L"}
 
+
 products = [print([model,color,capacity]) for model in models for color in colors for capacity in capacities] 
