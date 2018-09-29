@@ -9,6 +9,7 @@ for i in range(0,n):
   age = int(input("Enter the age: "))
   first_dict[name] = age
 
+
 print("The list of Youngest to Oldest People:")
 for i in sorted(first_dict.values()):
   print(list(first_dict.keys())[list(first_dict.values()).index(i)],":",i)
