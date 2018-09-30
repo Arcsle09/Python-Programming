@@ -10,4 +10,5 @@ n = int(input('Enter the number to produce finbonnacci series: '))
 
 for i in range(0,n):
     print(fibonnacci(i), end = " ")
+print("\n")
     
