@@ -48,6 +48,6 @@ sorted_list_by_name = sorted(list(employee.chunks(employee_list,3)), key = lambd
 print(sorted_list_by_name)
 
 print('The sorted list by salary in descending order:')      
-sorted_list_by_salary = sorted(list(employee.chunks(employee_list,3)),reverse=True,key = lambda x: x[2],)
+sorted_list_by_salary = sorted(list(employee.chunks(employee_list,3)),reverse=True,key = lambda x: x[2])
 print(sorted_list_by_salary)
         
