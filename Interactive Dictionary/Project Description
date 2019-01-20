@@ -1,6 +1,6 @@
 The interactive dictionary should take input from the users. 
 
-It needs to be case sensitive. 
+It must not be case sensitive. 
 
 The dictionary should handle the random and misspelled words. 
 
