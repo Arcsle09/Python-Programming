@@ -14,11 +14,9 @@ def largest_palindrome(n):
     lower_limit = 1 + upper_limit//10
 
     max_product = 0
-    count = 0
     for i in range(upper_limit,lower_limit-1, -1):
         for j in range(i,lower_limit-1,-1):
             product = i * j
-            count = count + 1
             if product < max_product :
                 break
             number = product 
@@ -30,6 +28,5 @@ def largest_palindrome(n):
             
             if product == reverse and product > max_product:
                 max_product = product
-                print(product)
-    return (max_product,product,count) 
+    return (max_product) 
                 
