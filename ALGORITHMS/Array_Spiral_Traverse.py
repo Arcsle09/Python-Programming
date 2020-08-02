@@ -5,6 +5,8 @@ Created on Sun Aug  2 17:35:33 2020
 @author: chra8017
 """
 
+#Description: Write the array using spiral path.
+
 def SpiralTraverse(array):
     import numpy as np
     array = np.empty([4,4])
